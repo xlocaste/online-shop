@@ -1,5 +1,6 @@
 import React from "react";
 import { FaSearch, FaShoppingCart, FaUser, FaHome } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -29,10 +30,10 @@ const Navbar = () => {
       </div>
 
       <div className="mt-2 flex justify-center space-x-8 text-sm font-semibold">
-        <a href="#" className="hover:underline">HOME</a>
-        <a href="#" className="hover:underline">PRODUK</a>
-        <a href="#" className="hover:underline">DESAIN INTERIOR</a>
-        <a href="#" className="hover:underline">TENTANG KAMI</a>
+        <Link to="/" className="hover:underline">HOME</Link>
+        <Link to="/produk" className="hover:underline">PRDOUK</Link>
+        <Link to="/desain-interior" className="hover:underline">DESAIN INTERIOR</Link>
+        <Link to="/tentang-kami" className="hover:underline">TENTANG KAMI</Link>
       </div>
     </nav>
   );
