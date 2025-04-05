@@ -1,5 +1,5 @@
 import React from "react";
-import { FaSearch, FaShoppingCart, FaUser, FaHome } from "react-icons/fa";
+import { FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="bg-green-900 text-white p-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <FaHome className="text-3xl" />
+          <img src="/Logo/logo.png" alt="" className="w-16"/>
         </div>
 
         <div className="flex-1 mx-4">

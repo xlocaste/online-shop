@@ -1,17 +1,17 @@
 import React from "react";
 
 const products = [
-  { name: "Lampu Standing", price: 1299000, image: "lampu.jpg" },
-  { name: "Kursi Rotan", price: 1299000, image: "kursi-rotan.jpg" },
-  { name: "Rak Sepatu", price: 1299000, image: "rak-sepatu.jpg" },
-  { name: "Coffee Tables", price: 1299000, image: "coffee-tables.jpg" },
-  { name: "Kursi Bar", price: 1299000, image: "kursi-bar.jpg" },
+  { name: "Lampu Standing", price: 1299000, image: "/Home/home 1.jpg" },
+  { name: "Kursi Rotan", price: 1299000, image: "Home/home 2.jpg" },
+  { name: "Rak Sepatu", price: 1299000, image: "Home/home 3.jpg" },
+  { name: "Coffee Tables", price: 1299000, image: "Home/home 4.jpg" },
+  { name: "Kursi Bar", price: 1299000, image: "Home/home 5.jpg" },
 ];
 
 const saleProducts = [
-  { name: "RAK TV KAYU JATI", price: 1299000, originalPrice: 2499000, image: "rak-tv-kayu-jati.jpg" },
-  { name: "RAK TV MODERN", price: 2999000, originalPrice: 3999000, image: "rak-tv-modern.jpg" },
-  { name: "RAK TV RETRO", price: 1599000, originalPrice: 3499000, image: "rak-tv-retro.jpg" },
+  { name: "RAK TV KAYU JATI", price: 1299000, originalPrice: 2499000, image: "Home/home 6.jpg" },
+  { name: "RAK TV MODERN", price: 2999000, originalPrice: 3999000, image: "Home/home 7.jpg" },
+  { name: "RAK TV RETRO", price: 1599000, originalPrice: 3499000, image: "Home/home 8.jpg" },
 ];
 
 const ProductCard = ({ name, price, originalPrice, image }) => (

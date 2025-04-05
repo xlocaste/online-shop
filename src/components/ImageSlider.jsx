@@ -3,9 +3,10 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const ImageSlider = () => {
   const images = [
-    "./Image1.jpg",
-    "/images/sofa2.jpg",
-    "/images/sofa3.jpg",
+    "/Home/home slide1.jpg",
+    "/Home/home slide2.jpg",
+    "/Home/home slide3.jpg",
+    "/Home/home slide4.jpg",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,13 +25,13 @@ const ImageSlider = () => {
 
   return (
     <div className="relative w-full mx-auto">
-      <div className="overflow-hidden">
-        <img
-          src={images[currentIndex]}
-          alt="Slider"
-          className="w-full h-auto object-cover"
-        />
-      </div>
+      <div className="w-full h-[700px] overflow-hidden">
+  <img
+    src={images[currentIndex]}
+    alt="Slider"
+    className="w-full h-full object-cover"
+  />
+</div>
 
       <button
         onClick={prevSlide}
