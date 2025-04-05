@@ -31,7 +31,7 @@ const Navbar = () => {
 
       <div className="mt-2 flex justify-center space-x-8 text-sm font-semibold">
         <Link to="/" className="hover:underline">HOME</Link>
-        <Link to="/produk" className="hover:underline">PRDOUK</Link>
+        <Link to="/produk" className="hover:underline">PRODUK</Link>
         <Link to="/desain-interior" className="hover:underline">DESAIN INTERIOR</Link>
         <Link to="/tentang-kami" className="hover:underline">TENTANG KAMI</Link>
       </div>

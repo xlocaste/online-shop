@@ -1,14 +1,14 @@
 const categories = [
-  { name: "Accessories", image: "/images/accessories.png" },
-  { name: "Kabinet", image: "/images/kabinet.png" },
-  { name: "Sofa", image: "/images/sofa.png" },
-  { name: "Rak TV", image: "/images/raktv.png" },
-  { name: "Tempat Tidur", image: "/images/tempattidur.png" },
-  { name: "Kursi", image: "/images/kursi.png" },
-  { name: "Nakas", image: "/images/nakas.png" },
-  { name: "Meja", image: "/images/meja.png" },
-  { name: "Laundry", image: "/images/laundry.png" },
-  { name: "Kids Furniture", image: "/images/kidsfurniture.png" },
+  { name: "Accessories", image: "/Product/1.jpg" },
+  { name: "Kabinet", image: "/Product/2.jpg" },
+  { name: "Sofa", image: "/Product/3.jpg" },
+  { name: "Rak TV", image: "/Product/4.jpg" },
+  { name: "Tempat Tidur", image: "/Product/5.jpg" },
+  { name: "Kursi", image: "/Product/6.jpg" },
+  { name: "Nakas", image: "/Product/7.jpg" },
+  { name: "Meja", image: "/Product/8.jpg" },
+  { name: "Laundry", image: "/Product/9.jpg" },
+  { name: "Kids Furniture", image: "/Product/10.jpg" },
 ];
 
 export default function KategoriProduk() {

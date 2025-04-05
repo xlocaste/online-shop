@@ -1,10 +1,10 @@
 const products = [
-    { name: "Sofa Bed", price: "Rp 1.700.000", image: "/images/sofabed.png" },
-    { name: "Meja Tamu Oval", price: "Rp 1.500.000", image: "/images/mejaoval.png" },
-    { name: "Sofa Single", price: "Rp 1.000.000", image: "/images/sofasingle.png" },
-    { name: "Sofa Bed", price: "Rp 1.700.000", image: "/images/sofabed.png" },
-    { name: "Meja Tamu Oval", price: "Rp 1.500.000", image: "/images/mejaoval.png" },
-    { name: "Sofa Single", price: "Rp 1.000.000", image: "/images/sofasingle.png" },
+    { name: "Sofa Bed", price: "Rp 1.700.000", image: "/Product/11.jpg" },
+    { name: "Meja Tamu Oval", price: "Rp 1.500.000", image: "/Product/12.jpg" },
+    { name: "Sofa Single", price: "Rp 1.000.000", image: "/Product/13.jpg" },
+    { name: "Sofa Bed", price: "Rp 1.700.000", image: "/Product/14.jpg" },
+    { name: "Meja Tamu Oval", price: "Rp 1.500.000", image: "/Product/15.jpg" },
+    { name: "Sofa Single", price: "Rp 1.000.000", image: "/Product/16.jpg" },
   ];
   
   export default function ProdukUnggulan() {

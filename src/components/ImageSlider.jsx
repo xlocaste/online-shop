@@ -26,12 +26,12 @@ const ImageSlider = () => {
   return (
     <div className="relative w-full mx-auto">
       <div className="w-full h-[700px] overflow-hidden">
-  <img
-    src={images[currentIndex]}
-    alt="Slider"
-    className="w-full h-full object-cover"
-  />
-</div>
+        <img
+          src={images[currentIndex]}
+          alt="Slider"
+          className="w-full h-full object-cover"
+        />
+      </div>
 
       <button
         onClick={prevSlide}

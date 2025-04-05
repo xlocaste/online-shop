@@ -4,7 +4,9 @@ import { IoStarSharp } from "react-icons/io5";
 const DashboardDesainInterior = () => {
   return (
     <div>
-      <img src="Image1.jpg" alt="" />
+        <div className='w-full h-[700px] overflow-hidden'>
+            <img src="/DesainInterior/desain interior.jpg" alt="" className='w-full h-full object-cover'/>
+        </div>
       <div className='bg-green-900 w-full text-white items-center py-6'>
         <p className='w-full flex justify-center pb-4'>GRATIS PERHITUNGAN ESTIMASI BIAYA</p>
         <div className='flex justify-center items-center space-x-8 px-10'>
@@ -35,30 +37,30 @@ const DashboardDesainInterior = () => {
             </div>
         </div>
         <div className='grid grid-cols-3 px-10 gap-4 my-4'>
-            <div className="relative">
-                <img src="Image1.jpg" alt="" className='bg-cover rounded-lg' />
+            <div className="relative h-[250px] overflow-hidden">
+                <img src="/DesainInterior/desain interior1.jpg" alt="" className='w-full h-full object-cover rounded-lg' />
                 <p className='absolute bottom-0 left-0 text-white p-2'>Kitchen Set</p>
             </div>
-            <div className="relative">
-                <img src="Image1.jpg" alt="" className='bg-cover rounded-lg' />
+            <div className="relative h-[250px] overflow-hidden">
+                <img src="/DesainInterior/desain interior2.jpg" alt="" className='w-full h-full object-cover rounded-lg' />
                 <p className='absolute bottom-0 left-0 text-white p-2'>Kitchen Set</p>
             </div>
-            <div className="relative">
-                <img src="Image1.jpg" alt="" className='bg-cover rounded-lg' />
+            <div className="relative h-[250px] overflow-hidden">
+                <img src="/DesainInterior/desain interior3.jpg" alt="" className='w-full h-full object-cover rounded-lg' />
                 <p className='absolute bottom-0 left-0 text-white p-2'>Kitchen Set</p>
             </div>
         </div>
         <div className='grid grid-cols-3 px-10 gap-4 my-4'>
-            <div className="relative">
-                <img src="Image1.jpg" alt="" className='bg-cover rounded-lg' />
+            <div className="relative h-[250px] overflow-hidden">
+                <img src="/DesainInterior/desain interior4.jpg" alt="" className='w-full h-full object-cover rounded-lg' />
                 <p className='absolute bottom-0 left-0 text-white p-2'>Kitchen Set</p>
             </div>
-            <div className="relative">
-                <img src="Image1.jpg" alt="" className='bg-cover rounded-lg' />
+            <div className="relative h-[250px] overflow-hidden">
+                <img src="/DesainInterior/desain interior5.jpg" alt="" className='w-full h-full object-cover rounded-lg' />
                 <p className='absolute bottom-0 left-0 text-white p-2'>Kitchen Set</p>
             </div>
-            <div className="relative">
-                <img src="Image1.jpg" alt="" className='bg-cover rounded-lg' />
+            <div className="relative h-[250px] overflow-hidden">
+                <img src="/DesainInterior/desain interior6.jpg" alt="" className='w-full h-full object-cover rounded-lg' />
                 <p className='absolute bottom-0 left-0 text-white p-2'>Kitchen Set</p>
             </div>
         </div>
